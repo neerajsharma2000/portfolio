@@ -14,40 +14,12 @@ const Projects = () => {
       {/* <Navbar /> */}
       <div className='w-full h-screen flex flex-col justify-center items-center  text-blue-400'>
         <div className="w-max-[1000px] mx-auto p-4 flex flex-col justify-center items-center  bg-black opacity-80">
-          <h1 className='text-4xl font-bold rounded-md hover:bg-blue-400 hover:text-black'>Projects</h1>
+          <h1 className='text-xl md:text-4xl font-bold rounded-md hover:bg-blue-400 hover:text-black'>Projects</h1>
         </div>
 
         {/* containers */}
 
         <div className="m-2 p-4 grid sm:grid-cols-1 md:grid-cols-2 gap-4 bg-black opacity-80">
-
-
-
-          {/* <div style={{ backgroundImage: `url(${Portfolio})` }} className="shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div">
-            <div className="opacity-0 group:hover:opacity-100">
-              <span className="text-2xl font bold text-white tracking-wider ">
-                ReactjsAppn
-              </span>
-              <div className="pt-8 text-center ">
-                <a href='/' target="_blank">
-                  <button
-                    className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
-                  >
-                    Code
-                  </button>
-                </a>
-                <a href='/' target="_blank">
-                  <button
-                    className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
-                  >
-                    Live
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div> */}
 
           <div className=" shadow-lg shadow-white  container rounded-md flex-col justify-center items-center  ">
             <div style={{ backgroundImage: `url(${Portfolio})` }} className="shadow-lg shadow-white  container rounded-md flex justify-center items-center mx-auto content-div ">
@@ -87,8 +59,7 @@ const Projects = () => {
             <div className="flex-col justify-start items-center container rounded-md ">
               <div className="flex justify-center items-center container rounded-md">
                 <p>Individually built a data science project predicting Stroke disease chance based on given user inputs. Applied
-                supervised algorithms( Logistic Regression, Decision tree, and Random forest ) ,performed hyperparameter
-                optimization using Gridsearchcv and deployed on Render platform using Flask web framework.</p>
+                supervised algorithms, GridsearchCV algorithm and deployed on Render platform</p>
               </div>
               <div className="flex justify-center items-center container rounded-md">
                 {/* eslint-disable-next-line */}

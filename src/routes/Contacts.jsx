@@ -16,7 +16,7 @@ const Contacts = () => {
       <div name='contact' className='w-full h-screen flex justify-center items-center p-4  text-blue-400 '>
         <form method='POST' action="https://formspree.io/f/mrgvzjgz" enctype="multipart/form-data" className='flex flex-col max-w-[600px] w-full  bg-black opacity-80'>
           <div className='flex justify-center items-center'>
-            <p className='text-4xl font-bold inline rounded-md text-gray-300 hover:bg-blue-400 hover:text-black'>Contact</p>
+            <p className='text-xl md:text-4xl md:font-bold inline rounded-md text-gray-300 hover:bg-blue-400 hover:text-black'>Contact</p>
             {/* <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email - vutukuri.kumar192st.niituniversity.in</p> */}
           </div>
           <input className='bg-white p-2  m-2' type="text" placeholder='Name' name='name' />

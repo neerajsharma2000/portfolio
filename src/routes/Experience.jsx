@@ -35,7 +35,7 @@ const Experience = () => {
 
       <div className='w-full h-screen flex flex-col justify-center items-center  text-blue-400 '>
         <div className="w-max-[1000px]  mx-auto p-4 flex justify-center items-center  bg-black opacity-80 ">
-          <h1 className='text-4xl font-bold rounded-md hover:bg-blue-400 hover:text-black'>Experience</h1>
+          <h1 className='text-2xl md:text-4xl md:font-bold rounded-md hover:bg-blue-400 hover:text-black'>Experience</h1>
 
         </div>
         <div className="w-max-[1000px]   mx-auto  flex p-2 bg-black opacity-80">

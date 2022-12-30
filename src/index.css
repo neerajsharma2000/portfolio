@@ -27,7 +27,13 @@ code {
   height: 300px;
   width: 300px;
 }
-
+.mincontent-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+}
 .bgpic {
   background-repeat: no-repeat;
   background-size: cover;

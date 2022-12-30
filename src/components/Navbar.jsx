@@ -44,7 +44,7 @@ export const Navbar = () => {
         {(!nav) ? <FaBars /> : <FaTimes />}
       </div>
 
-      <div className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center text-2xl bg-black "}>
+      <div className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center text-2xl bg-black z-10"}>
         <ul className=' md:hidden '>
           <li className='px-4 py-4 cursor-pointer  hover:bg-blue-400 hover:text-black rounded-md'><Link to={"/"}>Home</Link></li>
           <li className='px-4 py-4 cursor-pointer  hover:bg-blue-400 hover:text-black rounded-md'><Link to={"/about"}>About</Link></li>
